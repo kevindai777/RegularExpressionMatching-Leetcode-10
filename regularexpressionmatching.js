@@ -2,7 +2,7 @@
 //The pattern can have '.', which can represent any character in the alphabet
 //and '*', which represents that the previous character can be repeated any number of times (including 0)
 
-let s = "aab", p = "c*a*b"
+let string = "aab", pattern = "c*a*b"
 
 
 //O((T+P)2^(T+P/2)) solution where T is the length of the string and P is the length of the patterncc
